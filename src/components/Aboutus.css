@@ -1,0 +1,46 @@
+.Aboutus {
+    /*background: url('/images/img-home2.jpg') center center/cover no-repeat;*/
+    background-color: #fff;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+   object-fit: contain;
+ }
+ .Aboutus > h1 {
+    color: gold;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: -100px;
+    
+  }
+  .Aboutus > h2 {
+    color:grey;
+    height: 20px;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: -700px;
+    
+  }
+  
+  .Aboutus > p {
+    margin-top: 20px;
+    width: 30%;
+    margin-left:-500px;
+    color: grey;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      background-color: gold;
+      border-radius: 10px;
+      padding: 10px;
+  }
+  .Aboutus > h6 {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    margin-top: 30px;
+    
+  }
