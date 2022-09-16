@@ -1,0 +1,139 @@
+* {box-sizing: border-box}
+
+video {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  margin-top: -100px;
+}
+
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.Singup{
+  display: flex;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  background-color: gray;
+  width: 30%;
+  height: 50%;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-left: 70px;
+  border-radius: 20px;
+  border-color: gold;
+  border-style: double;
+  border-width: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.text-container{
+  margin-left: 850px;
+  margin-top: 50px;
+  font-size: 100px;
+  color: #FFF;
+}
+.text-container > span {
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px gold, 0 0 50px gold, 0 0 100px gold;
+  }
+  
+  10%, 90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+
+.text-container > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.text-container > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.text-container > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.text-container > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.text-container > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+.text-container > span:nth-child(7) {
+	animation-delay: 1.5s;
+}
