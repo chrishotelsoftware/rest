@@ -1,0 +1,50 @@
+.homemenu{
+    padding: 4rem;
+    background: #fff;
+    background-image: url(/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+.homemenu >h1{
+    color:white;
+    font-size: 50px;
+    margin-left: -700px;
+    margin-top: 0px;
+}
+.slider{
+    margin-top: 10px;
+    border-radius: 50px;
+    width:50%;
+    
+    
+}
+.text{
+    color:gold;
+    font-size: 20px;
+    
+    width:35%;
+    
+    margin-left: 700px;
+    margin-top: -450px;
+}
+   
+#btn{
+    color:gold;
+    background-color: gray;
+    width:30%;
+    margin-left: 100px;
+    border-width: 5px;
+    border-color: white;
+    border-style: double;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+
+}
+#btn:hover{
+    background-color: #fff;
+    color:black;
+}

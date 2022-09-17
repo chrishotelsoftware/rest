@@ -1,9 +1,15 @@
+
 .cardss {
   padding: 4rem;
   background: #fff;
+  background-image: url(/images/bg5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .cardss > h2 {
-  color:grey;
+  color:white;
   font-size: 50px;
   margin-left: 150px;
   margin-top: 100px;
@@ -38,14 +44,20 @@ h1 {
 }
 
 .cardss__items {
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: gold;
+  border-style: double;
+  margin-top: -500px;
   margin-bottom: 24px;
+  width:48%;
 }
 
 .cardss__item {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
+ 
 }
 
 .cardss__item__link {
@@ -110,8 +122,8 @@ h1 {
 }
 
 .cardss__item__text {
-  color: #252e48;
-  font-size: 18px;
+  color: black;
+  font-size: 10px;
   line-height: 24px;
 }
 
@@ -131,4 +143,21 @@ h1 {
   .cardss__item {
     margin-bottom: 2rem;
   }
+}
+.sliders{
+  margin-left: 600px;
+  margin-top:0px;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: gold;
+  border-style: double;
+}
+.cards__item__text {
+  color:gray;
+  background-color: gold;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 25px;
+  line-height: 24px;
+  overflow: hidden;
 }
