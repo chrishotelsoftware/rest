@@ -26,7 +26,7 @@ function Signup()
        <hr />
        <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required></input>
-    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <label for="psw-repeat"><b>Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required></input>
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required></input>

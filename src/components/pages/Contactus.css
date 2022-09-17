@@ -1,0 +1,170 @@
+.contactus{
+    background-image: url('/images/bg.jpg');
+    height: 120vh;
+    width:100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.contactus > h1{
+    color:gold;
+    font-size: 100px;
+    margin-top: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .Singup{
+    display: flex;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: gold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+ 
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .fillup {
+    padding: 15px;
+    background-color: gray;
+    width: 30%;
+    height: 50%;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    margin-left: 900px;
+    
+  }
+  
+ 
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  .text-container{
+    margin-left: 850px;
+    margin-top: 50px;
+    font-size: 100px;
+    color: #FFF;
+  }
+  .social-icon-link {
+    color: white;
+    font-size: 25px;
+  }
+  .social-icon-link:hover {
+    color: gold;
+    
+  }
+  
+  .social-media {
+    
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: 100px;
+    margin-top: 0px;
+   
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    margin-top: 10px; 
+
+  }
+  
+  
+  
+  
+  
+  .social-logo {
+    color: gray;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .findus > h1{
+    color: gold;
+  }
+  .findus > h2{
+    color:gray;
+  }
+  .findus{
+    margin-top: 100px;
+  }
+  .info{
+    width: 30%;
+    height: 87vh;
+    background-color: gray;
+    margin-left: 495px;
+    margin-top: -636px;
+  }
+  .info >h1{
+    margin-left:-100px;
+    color: gold;
+    margin-top: 50px;
+
+  }
+  .info >p{
+    width:50%;
+    margin-left: 100px;
+
+  }
+ 
