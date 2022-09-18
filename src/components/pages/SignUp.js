@@ -1,16 +1,18 @@
 import React from 'react';
 import '../../App.css';
 import './Signup.css';
+import Footer from '../Footer';
 
 function Signup() 
 
 {
   
   return (
+    <>
     <div className='Signup'>
-      <video src='/videos/video6.mp4' autoPlay loop muted />
+      
       <div class="text-container">
-  <span>5</span>
+  <span>2</span>
   <span>0</span>
   <span>%</span>
   <span>O</span>
@@ -43,6 +45,8 @@ function Signup()
           </div>
           
     </div>
+    <Footer />
+    </>
     
   );
 }

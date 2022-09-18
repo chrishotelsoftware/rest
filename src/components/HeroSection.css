@@ -1,11 +1,9 @@
 .hero-container-video {
-  object-fit: cover;
+  object-fit:cover;
   display: flex;
   position: fixed;
-  right: 0;
-  bottom: 0;
   min-width: 100%;
-  max-height: 100%;
+  max-height: 200%;
 }
 
   
@@ -31,7 +29,7 @@
   font-size: 100px;
   margin-top: -100px;
   transform: translateY(-600px);
-  animation: 1.2s slideIn ease-in-out forwards 1s;
+  animation: 0.5s slideIn ease-in-out forwards 1s;
   z-index: 10;
   opacity: 0;
   overflow: hidden;
@@ -80,7 +78,7 @@ h1::before {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     transform: translateY(-600px);
-    animation: 1.2s slideIn ease-in-out forwards 2s;
+    animation: 1s slideIn ease-in-out forwards 2s;
 }
 
 

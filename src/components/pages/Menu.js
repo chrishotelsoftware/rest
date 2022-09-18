@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import './Menu.css';
+import Footer from '../Footer';
 import { useEffect, useState } from "react";
 import img1 from "./images/img1.jpg"
 import img2 from "./images/img2.jpg"
@@ -17,7 +18,7 @@ export default function  Menu() {
       setSelectedImage(selectedImage => selectedImage < 3 ? selectedImage + 1 : 0)
     }, 2000)
   }, [])
-  return <div>
+  return <><div>
     <div className='slide'>
     <img width={1400} height={450} src={allImages[selectedImage]} /> <br />
     <h1 id='head'>Offered Menu</h1>
@@ -49,4 +50,6 @@ export default function  Menu() {
 </div>
 
 </div>
+<Footer />
+</>
 }

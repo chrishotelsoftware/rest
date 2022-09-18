@@ -1,0 +1,33 @@
+.aboutus{
+    background-image: url('/images/bg8.jpg') ;
+    height: 130vh;
+    width:100%;
+    background-size: cover;
+    
+    
+    overflow: hidden;
+}
+.aboutus > h1{
+    color:gold;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-left: -300px;
+}
+.aboutus > p{
+    color:white;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 50px;
+    width: 40%;
+    border-width: 10px;
+    border-color: white;
+    border-style:groove;
+    transition: all 0.2s linear;
+}
+.aboutus > h2{
+    color: gray;
+    font-size: 70px;
+    margin-left: 100px;
+
+}

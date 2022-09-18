@@ -44,12 +44,13 @@ h1 {
 }
 
 .cardss__items {
-  border-radius: 10px;
   border-width: 10px;
   border-color: gold;
-  border-style: double;
-  margin-top: -500px;
+  border-style: groove;
+  margin-top: -520px;
   margin-bottom: 24px;
+  margin-left: 20px;
+  height: 520px;
   width:48%;
 }
 
@@ -145,12 +146,12 @@ h1 {
   }
 }
 .sliders{
-  margin-left: 600px;
+  margin-left: 550px;
   margin-top:0px;
-  border-radius: 20px;
   border-width: 10px;
   border-color: gold;
-  border-style: double;
+  border-style: groove;
+  overflow: hidden;
 }
 .cards__item__text {
   color:gray;

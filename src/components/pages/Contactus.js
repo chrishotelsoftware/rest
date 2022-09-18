@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../App.css';
 import './Contactus.css';
+import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
 export default function Contactus() {
-  return <div className='contactus'>
+  return <><div className='contactus'>
    
   <h1 >Contact Us</h1>
   
@@ -87,5 +88,7 @@ export default function Contactus() {
               
     </div>
     
-  </div>;
+  </div>
+  <Footer />
+  </>
 }
